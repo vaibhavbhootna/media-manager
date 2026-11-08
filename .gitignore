@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Development PIDs & Logs
+.*.pid
+*.pid
+*.log
+backend.log
+frontend.log
+
+# Swift / SwiftPM
+.build/
+backend/.build/
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+*.xcodeproj
+*.xcworkspace
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea/
+
+# Database & Runtime
+*.sqlite
+*.sqlite3
+*.db
